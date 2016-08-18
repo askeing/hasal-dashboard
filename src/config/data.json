@@ -1,0 +1,92 @@
+{
+  "mac": {
+    "fx": {
+      "test_foo": {
+        "first test": {
+          "fx": {
+            "comment": "first test",
+            "origin_values": [
+              [
+                501,
+                "20160701_fx001.avi",
+                "127.0.0.1"
+              ],
+              [
+                505,
+                "20160701_fx002.avi",
+                "127.0.0.1"
+              ],
+              [
+                502,
+                "20160701_fx003.avi",
+                "127.0.0.1"
+              ],
+              [
+                504,
+                "20160701_fx005.avi",
+                "127.0.0.1"
+              ],
+              [
+                503,
+                "20160701_fx004.avi",
+                "127.0.0.1"
+              ]
+            ],
+            "mean_value": 503.0,
+            "target": "fx",
+            "timestamp": 1468551754.173511,
+            "video_path": "",
+            "median_value": 503.0,
+            "platform": "x86_64",
+            "sigma_value": 1.4142135623730951,
+            "test": "test_foo",
+            "profile_path": "",
+            "os": "mac",
+            "browser": "fx"
+          },
+          "ch": {
+            "comment": "first test",
+            "origin_values": [
+              [
+                508,
+                "20160701_ch001.avi",
+                "127.0.0.1"
+              ],
+              [
+                505,
+                "20160701_ch002.avi",
+                "127.0.0.1"
+              ],
+              [
+                508,
+                "20160701_ch005.avi",
+                "127.0.0.1"
+              ],
+              [
+                506,
+                "20160701_ch004.avi",
+                "127.0.0.1"
+              ],
+              [
+                507,
+                "20160701_ch003.avi",
+                "127.0.0.1"
+              ]
+            ],
+            "video_path": "http://video/path",
+            "target": "fx",
+            "timestamp": 1468551800.027922,
+            "mean_value": 506.8,
+            "median_value": 507.0,
+            "platform": "x86_64",
+            "os": "mac",
+            "test": "test_foo",
+            "profile_path": "http://profile/path",
+            "sigma_value": 1.1661903789690602,
+            "browser": "ch"
+          }
+        }
+      }
+    }
+  }
+}
