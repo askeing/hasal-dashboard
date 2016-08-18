@@ -54,9 +54,7 @@ function addOSButtons(os_name) {
 }
 
 function cleanTargetButtons() {
-    //var origin_target_html = '<li id="target-no"><a href="#">--</a></li><li role="separator" class="divider"></li>';
     $("ul#btn-target-selection").empty();
-    //$("ul#btn-target-selection").append(origin_target_html);
     $("#btn-target-label").text("Select Target");
 }
 
@@ -74,21 +72,17 @@ function generateOsAndTarget(input_json) {
     data = input_json;
 
     os_list = Object.keys(data);
-    for (var i = 0; i < os_list.length; i++) {
-        var os_name = os_list[i];
+    for (var os_name in data) {
         // TODO: new array for target_dict, and add OS_Name into dropdown button
         target_dict[os_name] = new Array();
         addOSButtons(os_name);
 
         console.log('OS: ' + os_name);
         var os = data[os_name];
+
         var target_names = Object.keys(os);
-
-        for (var j = 0; j < target_names.length; j++) {
-            var target_name = target_names[j];
-            // TODO: add target into target_dict
-            target_dict[os_name].push(target_name);
-
+        target_dict[os_name] = target_names;
+        for (var target_name in os) {
             console.log('OS: ' + os_name + ', target: ' + target_name);
             var target = os[target_name];
             for (var test_name in target) {
