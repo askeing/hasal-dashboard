@@ -2742,9 +2742,9 @@
   "mac": {
     "firefox_45.0": {
       "test_chrome_open_gmail": {
-        "FirstRun": {
+        "2016-08-18": {
           "chrome": {
-            "comment": "FirstRun",
+            "comment": "2016-08-18",
             "origin_values": [
               [
                 8611.11111111111,
@@ -2898,7 +2898,7 @@
               ]
             ],
             "mean_value": 6945.238095238096,
-            "target": "firefox_47.0.1",
+            "target": "firefox_45.0",
             "timestamp": 1470375189.732,
             "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8bDlRMWJJSUZWaXc/preview",
             "median_value": 6811.1111111111095,
@@ -2907,15 +2907,15 @@
             "sigma_value": 636.1322764305029,
             "test": "test_chrome_open_gmail",
             "profile_path": "",
-            "os": "win32",
+            "os": "mac",
             "browser": "chrome"
           }
         }
       },
       "test_firefox_open_gmail": {
-        "FirstRun": {
+        "2016-08-18": {
           "firefox": {
-            "comment": "FirstRun",
+            "comment": "2016-08-18",
             "origin_values": [
               [
                 6022.222222222226,
@@ -3069,16 +3069,16 @@
               ]
             ],
             "mean_value": 5608.88888888889,
-            "target": "firefox_47.0",
+            "target": "firefox_45.0",
             "timestamp": 1470372016.792,
             "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8Ynh3UDhsY1ptbEU/preview",
             "median_value": 5361.111111111111,
             "platform": "AMD64",
-            "version": "47.0",
+            "version": "45.0",
             "sigma_value": 513.5080671025758,
             "test": "test_firefox_open_gmail",
             "profile_path": "",
-            "os": "win32",
+            "os": "mac",
             "browser": "firefox"
           }
         }
