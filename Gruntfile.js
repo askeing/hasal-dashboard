@@ -10,14 +10,15 @@ module.exports = function (grunt) {
         'uglify': {
             javascript_files: {
                 files: {
-                    'dest/js/dashboard.min.js': ['src/js/dashboard.js']
+                    'dest/js/dashboard.min.js': ['src/js/dashboard.js'],
+                    'dest/js/bootstrap-sortable.min.js': ['src/js/bootstrap-sortable.js']
                 }
             }
         },
         'cssmin': {
             css_files: {
                 files: {
-                    'dest/css/all.min.css': ['src/css/font-awesome.min.css', 'src/css/bootstrap.min.css', 'src/css/bootstrap-theme.min.css', 'src/css/main.css']
+                    'dest/css/all.min.css': ['src/css/font-awesome.min.css', 'src/css/bootstrap.min.css', 'src/css/bootstrap-theme.min.css', 'src/css/bootstrap-sortable.css', 'src/css/main.css']
                 }
             }
         },

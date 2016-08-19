@@ -4,44 +4,140 @@ var data = new Object();
 
 var os_list = [];
 var target_dict = new Object(); // {'OS_NAME': ['Target1', 'Target2', ...]}
+var result_dict = new Object(); // {'OS_NAME': {'Target1': [RESULT_1_OBJ, RESULT_2_OBJ, ...], ...}}
+
+function getParameter(parameter_name) {
+    var selfURL = window.location.search.substring(1);
+    var parameters = selfURL.split('&');
+    for (var i = 0; i < parameters.length; i++)
+    {
+        var parameter = parameters[i].split('=');
+        if (parameter[0] == parameter_name)
+        {
+            return parameter[1];
+        }
+    }
+}
+
+function cleanContainer() {
+    $("#result_list").empty();
+}
+
+function setupDefaultContainer() {
+    var html = "<div class=\"well\">Please select the OS and Target...</div>";
+    $("#result_list").html(html);
+}
+
+function addAlertToContainer(key, value) {
+    var html = "<div class=\"alert alert-danger\" role=\"alert\">Cannot get " + key + " " + value + "</div>";
+    $("#result_list").append(html);
+}
+
+function checkInputParameters(input_os, input_target, input_comment, input_test, input_webapp) {
+    if (input_os) {
+        if ($.inArray(input_os, os_list) > -1) {
+            selectOS(input_os);
+
+            if (input_target) {
+                if ($.inArray(input_target, target_dict[input_os]) > -1) {
+                    selectTarget(input_os, input_target);
+                } else {
+                    addAlertToContainer('Target', input_target);
+                    return;
+                }
+            }
+
+        } else {
+            addAlertToContainer('OS', input_os);
+            return;
+        }
+    }
+}
+
+function createTableToContainer() {
+    //var html = '<table class="table table-striped sortable" id="result-table"></table>';
+    var html = '<table class="table table-bordered table-striped sortable" id="result-table"></table>';
+    $("#result_list").html(html);
+}
+
+function generateResult(input_array) {
+    cleanContainer();
+    createTableToContainer();
+    var keys_name = ["Comment", "Test", "Browser", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
+    var keys_sortable = [true, true, true, true, true, true, false, false];
+    var keys = ["comment", "test", ["browser", "version", "platform"], "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
+
+    // Generate thead
+    var thead = $('<thead></thead>');
+    var thead_tr = $('<tr></tr>');
+    thead.append(thead_tr);
+    for (var i=0; i < keys_name.length; i++) {
+        if (keys_sortable[i]) {
+            thead_tr.append('<th>' + keys_name[i] + '</th>');
+        } else {
+            thead_tr.append('<th data-defaultsort="disabled">' + keys_name[i] + '</th>');
+        }
+
+    }
+    $("#result-table").append(thead);
+
+    // Generate tbody
+    var tbody = $('<tbody></tbody>');
+    $.each(input_array, function(index, element){
+        var tr = $('<tr></tr>');
+        for (var i=0; i < keys.length; i++) {
+            if (typeof keys[i] == 'string') {
+                tr.append('<td>' + element[keys[i]] + '</td>');
+            } else {
+                var td = $('<td></td>');
+                for (var j=0; j < keys[i].length; j++) {
+                    td.append('<p>' + element[keys[i][j]] + '</p>');
+                }
+                tr.append(td);
+            }
+        }
+        tbody.append(tr);
+    });
+    $("#result-table").append(tbody);
+
+    // Enable Sortable Table!
+    $.bootstrapSortable(true);
+}
+
+function selectTarget(os_name, target_name) {
+    $("#btn-target-label").text(target_name);
+    console.log(result_dict[os_name][target_name]);
+    generateResult(result_dict[os_name][target_name]);
+}
 
 function addTargetButtonsAction() {
     // Target dropdown button changed
     $("ul#btn-target-selection li").click(function () {
         var os_name = $("#btn-os-label").text();
-        var select_target = this.id;
-        var select_target_text = $(this).text();
-        console.log(select_target_text);
-        if (select_target === "target-no") {
-            $("#btn-target-label").text(select_target_text);
-        }
-        else {
-            $("#btn-target-label").text(select_target_text);
-            // TODO: get all result base on OS and Target
-            console.log("SHOW ALL result base on " + os_name + " and " + select_target_text);
-        }
+        var select_target_id = this.id;
+        var target_name = $(this).text();
+        selectTarget(os_name, target_name);
     });
+}
+
+function selectOS(os_name) {
+    $("#btn-os-label").text(os_name);
+    $("#target-menu").removeClass("disabled");
+    cleanTargetButtons();
+    for (var i = 0; i < target_dict[os_name].length; i++) {
+        addTargetButtons(target_dict[os_name][i]);
+    }
+    addTargetButtonsAction();
+    cleanContainer();
+    setupDefaultContainer();
 }
 
 function addOSButtonsAction() {
     // OS dropdown button changed
     $("ul#btn-os-selection li").click(function () {
-        var select_os = this.id;
-        var select_os_text = $(this).text();
-        console.log(select_os_text);
-        if (select_os === "os-no") {
-            $("#btn-os-label").text(select_os_text);
-            $("#target-menu").addClass("disabled");
-        }
-        else {
-            $("#btn-os-label").text(select_os_text);
-            $("#target-menu").removeClass("disabled");
-            cleanTargetButtons();
-            for (var i = 0; i < target_dict[select_os_text].length; i++) {
-                addTargetButtons(target_dict[select_os_text][i]);
-            }
-        }
-        addTargetButtonsAction();
+        var select_os_id = this.id;
+        var os_name = $(this).text();
+        selectOS(os_name);
     });
 }
 
@@ -67,7 +163,6 @@ function addTargetButtons(target_name) {
 }
 
 
-
 function generateOsAndTarget(input_json) {
     data = input_json;
 
@@ -75,15 +170,17 @@ function generateOsAndTarget(input_json) {
     for (var os_name in data) {
         // TODO: new array for target_dict, and add OS_Name into dropdown button
         target_dict[os_name] = new Array();
+        result_dict[os_name] = new Object();
+
         addOSButtons(os_name);
 
-        console.log('OS: ' + os_name);
         var os = data[os_name];
-
         var target_names = Object.keys(os);
         target_dict[os_name] = target_names;
+
         for (var target_name in os) {
-            console.log('OS: ' + os_name + ', target: ' + target_name);
+            result_dict[os_name][target_name] = new Array();
+
             var target = os[target_name];
             for (var test_name in target) {
                 var test = target[test_name];
@@ -91,19 +188,16 @@ function generateOsAndTarget(input_json) {
                     var comment = test[comment_name]
                     for (var bowser_name in comment) {
                         var browser_ret = comment[bowser_name];
-                        console.log('=====================');
-                        console.log('test: ' + browser_ret.test);
-                        console.log('os: ' + browser_ret.os);
-                        console.log('target: ' + browser_ret.target);
-                        console.log('platform: ' + browser_ret.platform);
-                        console.log('browser: ' + browser_ret.browser);
-                        console.log('version: ' + browser_ret.version);
-                        console.log('median: ' + browser_ret.median_value);
-                        console.log('sigma: ' + browser_ret.sigma_value);
-                        console.log('mean: ' + browser_ret.mean_value);
-                        // <iframe src="VIDEO_PATH" width="640" height="480"></iframe>
-                        console.log('video: ' + browser_ret.video_path);
-                        console.log('profile: ' + browser_ret.profile_path);
+                        browser_ret.test = browser_ret.test.replace(/test_firefox_/g, '').replace(/test_chrome_/g, '');
+                        browser_ret.median_value = Number(browser_ret.median_value).toFixed(2);
+                        browser_ret.sigma_value = Number(browser_ret.sigma_value).toFixed(2);
+                        browser_ret.mean_value = Number(browser_ret.mean_value).toFixed(2);
+                        browser_ret.mean_value = Number(browser_ret.mean_value).toFixed(2);
+                        if (browser_ret.video_path) {
+                            // <iframe class="embed-responsive-item" src="VIDEO_PATH" width="640" height="480"></iframe>
+                            browser_ret.video_path = '<iframe class="embed-responsive-item" src="' + browser_ret.video_path + '" width="320" height="240"></iframe>';
+                        }
+                        result_dict[os_name][target_name].push(browser_ret);
                     }
                 }
             }
@@ -116,9 +210,17 @@ function generateOsAndTarget(input_json) {
 }
 
 $(document).ready(function() {
-    $.getJSON( "config/dump.json", function( data ) {
-        console.log('Loading dump.json...');
+    var input_os = getParameter("os");
+    var input_target = getParameter("target");
+    var input_comment = getParameter("comment");
+    var input_test = getParameter("test");
+    var input_webapp = getParameter("webapp");
+
+    setupDefaultContainer();
+
+    $.getJSON( "config/data.json", function( data ) {
         generateOsAndTarget(data);
-        console.log('Loading dump.json done.');
+        checkInputParameters(input_os, input_target, input_comment, input_test, input_webapp);
     });
 });
+

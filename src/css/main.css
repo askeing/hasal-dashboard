@@ -38,3 +38,15 @@ footer {
 footer div.container {
     padding-top: 10px;
 }
+
+.filter-buttons-group {
+    width: 100%;
+}
+
+.filter-buttons {
+    width: 100%;
+}
+
+#result_list table td {
+    vertical-align: middle;
+}

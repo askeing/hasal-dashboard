@@ -1,89 +1,3085 @@
 {
-  "mac": {
-    "fx": {
-      "test_foo": {
-        "first test": {
-          "fx": {
-            "comment": "first test",
+  "win32": {
+    "firefox_47.0": {
+      "test_chrome_homepage_pagedown": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
             "origin_values": [
               [
-                501,
-                "20160701_fx001.avi",
+                13433.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832056.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832169.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13422.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832277.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13433.333333333328,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832385.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13377.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832496.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13311.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832602.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13411.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832714.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832818.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470832935.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833036.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833155.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13311.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833246.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13377.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833371.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833455.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13400.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833590.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833714.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13400.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833813.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13322.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470833928.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13355.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834074.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13377.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834181.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13377.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834326.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13266.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834432.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13311.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834585.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13399.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834645.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13366.666666666672,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834803.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13366.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470834903.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470835024.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13355.555555555551,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470835118.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13422.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470835242.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13388.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_pagedown_1470835332.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470835544.239,
+            "mean_value": 13373.563218390806,
+            "median_value": 13377.777777777774,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_homepage_pagedown",
+            "profile_path": "",
+            "sigma_value": 40.264535342283004,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_chrome_homepage": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                6888.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825316.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5233.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825502.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5355.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825525.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4177.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825700.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825730.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6144.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825894.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5922.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470825930.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826095.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5433.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826137.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5777.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826287.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826340.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4166.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826485.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6266.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826542.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6044.444444444449,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826676.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5777.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826748.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4233.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826877.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6044.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470826954.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5988.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827068.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827157.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4222.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827268.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6155.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827361.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6622.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827461.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827568.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4422.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827665.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6844.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827771.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7500,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827859.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5500,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470827982.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470828052.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470828184.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5877.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_homepage_1470828249.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470828443.184,
+            "mean_value": 5638.095238095237,
+            "median_value": 5666.666666666666,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_homepage",
+            "profile_path": "",
+            "sigma_value": 799.484118120702,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_chrome_pictures": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                5844.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470838672.mkv",
+                "10.247.28.195"
+              ],
+              [
+                16433.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470838665.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5588.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470838873.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4411.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470838917.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5955.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839071.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4922.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839106.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7322.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839274.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839299.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4477.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839490.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5477.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839481.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5622.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839683.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4855.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839682.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4522.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839880.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470839879.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5733.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840070.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6911.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840076.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4455.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840269.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840284.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840460.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4577.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840481.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6733.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840663.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840679.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5277.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840878.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4077.7777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470840908.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4411.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841096.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5388.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841080.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5544.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841288.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5622.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841281.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841484.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_pictures_1470841483.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470841696.333,
+            "mean_value": 5401.149425287356,
+            "median_value": 5388.888888888887,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_pictures",
+            "profile_path": "",
+            "sigma_value": 935.2577534396476,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_search": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                8277.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856007.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8211.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856203.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7922.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856229.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7888.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856414.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856443.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8111.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856625.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7911.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856661.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7900,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856837.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470856878.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8244.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857049.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857095.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7800,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857264.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8344.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857315.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8155.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857472.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7888.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857532.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857684.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8166.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857747.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8277.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857894.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8088.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470857961.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858107.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8244.444444444449,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858178.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8222.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858317.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7855.555555555551,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858394.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858530.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8388.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858612.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8166.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858741.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8033.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858834.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7888.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470858953.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8400.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470859050.mkv",
+                "10.247.28.195"
+              ],
+              [
+                8244.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_search_1470859164.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "mean_value": 8104.444444444443,
+            "target": "firefox_47.0",
+            "timestamp": 1470859373.328,
+            "video_path": "",
+            "median_value": 8133.333333333334,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 193.38015610104068,
+            "test": "test_firefox_search",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_chrome_editor_pick": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                7311.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819183.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7333.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819263.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819388.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819473.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5433.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819643.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6177.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819675.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3666.6666666666642,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819841.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4911.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470819878.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820031.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5844.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820076.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3277.7777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820227.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4622.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820281.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820414.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6377.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820477.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3611.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820610.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4800,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820681.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820798.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5011.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820879.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3666.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470820995.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821080.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5855.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821185.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5100,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821277.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3077.7777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821383.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4488.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821474.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4922.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821569.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821670.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3633.3333333333358,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821763.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5322.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821876.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470821953.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5544.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_editor_pick_1470822077.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470822281.381,
+            "mean_value": 5108.888888888889,
+            "median_value": 5055.555555555557,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_editor_pick",
+            "profile_path": "",
+            "sigma_value": 1093.216645384096,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_pictures": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                5788.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470835549.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6122.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470835689.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3800,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470835757.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3422.2222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470835899.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470835951.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4233.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836097.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3844.444444444449,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836142.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5444.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836294.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3422.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836335.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4500,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836501.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4388.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836525.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836701.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3866.6666666666642,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836721.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3400,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836914.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470836900.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4066.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837103.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3377.7777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837099.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4533.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837297.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4266.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837294.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837494.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3644.4444444444416,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837494.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5133.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837687.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3655.5555555555547,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837689.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3077.7777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837886.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3133.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470837885.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3644.4444444444453,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470838080.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470838080.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3977.7777777777737,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470838272.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470838290.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4877.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_pictures_1470838466.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "mean_value": 4023.809523809523,
+            "target": "firefox_47.0",
+            "timestamp": 1470838660.409,
+            "video_path": "",
+            "median_value": 3922.222222222219,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 686.8936433677834,
+            "test": "test_firefox_pictures",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_chrome_video": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                25611.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470845749.mkv",
+                "10.247.29.23"
+              ],
+              [
+                34144.44444444444,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470845915.mkv",
+                "10.247.28.195"
+              ],
+              [
+                22033.33333333333,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846001.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21944.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846220.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21788.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846246.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21299.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846470.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21977.77777777778,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846488.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22055.55555555556,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846713.mkv",
+                "10.247.28.195"
+              ],
+              [
+                22033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846733.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22333.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846957.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470846976.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21088.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847206.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21744.44444444444,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847216.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21599.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847456.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21788.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847445.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21966.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847697.mkv",
+                "10.247.29.23"
+              ],
+              [
+                30555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847689.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21888.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847942.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22177.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470847981.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21744.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848183.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21800.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848232.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21588.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848424.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848479.mkv",
+                "10.247.28.195"
+              ],
+              [
+                22011.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848664.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21733.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848731.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21977.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848907.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22100,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470848977.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21711.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470849149.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21955.55555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470849225.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21722.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_video_1470849390.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470849629.389,
+            "mean_value": 21878.20512820513,
+            "median_value": 21916.666666666664,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_video",
+            "profile_path": "",
+            "sigma_value": 229.8577281850019,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_editor_pick": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                5288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816102.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816222.mkv",
+                "10.247.29.23"
+              ],
+              [
+                2222.2222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816306.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4533.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816438.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4522.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816491.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3966.6666666666642,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816637.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816692.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816833.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4433.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470816885.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3466.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817026.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4311.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817082.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817217.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3033.3333333333358,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817281.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817413.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817473.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4033.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817612.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4466.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817671.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3055.5555555555547,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817808.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4233.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817870.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4844.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470817998.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818068.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4866.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818197.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818265.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4033.3333333333358,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818397.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3700,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818461.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4199.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818592.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3255.5555555555547,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818660.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4266.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818788.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4422.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818856.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4388.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_editor_pick_1470818986.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "mean_value": 4090.4761904761895,
+            "target": "firefox_47.0",
+            "timestamp": 1470819179.931,
+            "video_path": "",
+            "median_value": 4216.666666666666,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 539.8225775363034,
+            "test": "test_firefox_editor_pick",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_firefox_weather": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                6288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470849634.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6866.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470849722.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4877.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470849844.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5988.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470849939.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4599.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850043.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6655.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850148.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4800,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850241.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5088.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850360.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5855.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850442.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6244.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850564.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5055.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850649.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5066.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850776.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850850.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6277.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470850982.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4177.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851048.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851192.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5011.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851245.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6266.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851396.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851447.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4455.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851608.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4922.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851653.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851809.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4444.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470851855.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852020.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4588.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852054.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5877.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852221.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852255.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4844.444444444449,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852431.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4355.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852457.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4877.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_weather_1470852633.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "mean_value": 5262.222222222222,
+            "target": "firefox_47.0",
+            "timestamp": 1470852839.049,
+            "video_path": "",
+            "median_value": 4966.666666666664,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 789.3874272422042,
+            "test": "test_firefox_weather",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_firefox_video": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                22644.44444444444,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470841693.mkv",
+                "10.247.28.195"
+              ],
+              [
+                22000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470841886.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21777.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470841961.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21733.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842146.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21944.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842224.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21700,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842405.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22022.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842487.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21733.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842662.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21800.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842750.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21655.55555555556,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470842920.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21766.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843013.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21677.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843176.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21855.55555555556,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843278.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21711.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843434.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21788.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843542.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21844.44444444444,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843692.mkv",
+                "10.247.29.23"
+              ],
+              [
+                22000.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843810.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21777.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470843949.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21944.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844072.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21688.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844207.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21888.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844337.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21700.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844463.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21911.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844598.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21688.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844720.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21822.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844862.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21711.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470844976.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21733.33333333333,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470845126.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21711.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470845233.mkv",
+                "10.247.29.23"
+              ],
+              [
+                21800,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470845391.mkv",
+                "10.247.28.195"
+              ],
+              [
+                21700,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_video_1470845492.mkv",
+                "10.247.29.23"
+              ]
+            ],
+            "mean_value": 21796.16858237548,
+            "target": "firefox_47.0",
+            "timestamp": 1470845744.279,
+            "video_path": "",
+            "median_value": 21777.777777777777,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 106.06454664532608,
+            "test": "test_firefox_video",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_chrome_open_gmail": {
+        "FirstRun": {
+          "chrome": {
+            "comment": "FirstRun",
+            "origin_values": [
+              [
+                8611.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372017.mkv",
                 "127.0.0.1"
               ],
               [
-                505,
-                "20160701_fx002.avi",
+                6522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372212.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7655.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372224.mkv",
                 "127.0.0.1"
               ],
               [
-                502,
-                "20160701_fx003.avi",
+                5177.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372420.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7955.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372427.mkv",
                 "127.0.0.1"
               ],
               [
-                504,
-                "20160701_fx005.avi",
+                5555.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372616.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6655.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372631.mkv",
                 "127.0.0.1"
               ],
               [
-                503,
-                "20160701_fx004.avi",
+                5133.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372811.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6977.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373006.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6633.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373028.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373207.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373228.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6877.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373405.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7577.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373426.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373604.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6744.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373628.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6688.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373807.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374006.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7544.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374029.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7033.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374207.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7444.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374232.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6666.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374405.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374436.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6722.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374602.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6622.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374635.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374800.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7533.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374833.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6455.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374996.mkv",
+                "10.247.28.192"
+              ]
+            ],
+            "mean_value": 6945.238095238096,
+            "target": "firefox_47.0.1",
+            "timestamp": 1470375189.732,
+            "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8bDlRMWJJSUZWaXc/preview",
+            "median_value": 6811.1111111111095,
+            "platform": "AMD64",
+            "version": "52.0.2743.82",
+            "sigma_value": 636.1322764305029,
+            "test": "test_chrome_open_gmail",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_chrome_weather": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                7088.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470852836.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6688.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470852852.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5455.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853055.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853045.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7155.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853253.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6655.555555555551,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853254.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853459.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6188.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853461.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853665.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853668.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7011.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853870.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5977.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470853875.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854075.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6422.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854079.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854283.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6411.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854285.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7222.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854525.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6544.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854521.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7199.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854768.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7166.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854761.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6477.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854977.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470854971.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7222.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855181.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6522.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855177.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6722.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855387.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6466.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855384.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6777.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855591.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7044.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855593.mkv",
+                "10.247.28.195"
+              ],
+              [
+                6611.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855795.mkv",
+                "10.247.29.23"
+              ],
+              [
+                6411.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_weather_1470855801.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "video_path": "",
+            "target": "firefox_47.0",
+            "timestamp": 1470856010.008,
+            "mean_value": 6745.5938697318,
+            "median_value": 6688.888888888887,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_weather",
+            "profile_path": "",
+            "sigma_value": 350.7741827268021,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_homepage": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                5022.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822278.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4988.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822333.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3711.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822483.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3533.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822534.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4666.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822683.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4199.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822729.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4155.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822887.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3644.4444444444453,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470822925.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823092.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4199.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823119.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4466.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823294.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4122.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823316.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3611.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823513.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4444.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823499.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4077.7777777777737,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823710.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3911.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823706.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4866.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823906.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470823908.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4033.3333333333358,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824107.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3655.555555555551,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824108.mkv",
+                "10.247.28.195"
+              ],
+              [
+                5266.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824303.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4188.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824307.mkv",
+                "10.247.28.195"
+              ],
+              [
+                3866.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824505.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3488.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824509.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824702.mkv",
+                "10.247.29.23"
+              ],
+              [
+                4000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824708.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824903.mkv",
+                "10.247.29.23"
+              ],
+              [
+                5066.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470824911.mkv",
+                "10.247.28.195"
+              ],
+              [
+                4766.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470825101.mkv",
+                "10.247.29.23"
+              ],
+              [
+                3633.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_1470825116.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "mean_value": 4230.74074074074,
+            "target": "firefox_47.0",
+            "timestamp": 1470825318.955,
+            "video_path": "",
+            "median_value": 4172.222222222221,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 496.37934628505826,
+            "test": "test_firefox_homepage",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_firefox_open_gmail": {
+        "FirstRun": {
+          "firefox": {
+            "comment": "FirstRun",
+            "origin_values": [
+              [
+                6022.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366397.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5811.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366597.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6333.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366796.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6566.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366996.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5144.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470367198.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5066.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369431.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5700,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369628.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369633.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5033.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369829.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369837.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5966.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370026.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5333.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370035.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370225.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5477.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370235.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6066.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370419.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370432.mkv",
+                "127.0.0.1"
+              ],
+              [
+                4988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370620.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5166.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370631.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370817.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5355.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371018.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371026.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371218.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6122.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371223.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371417.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5122.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371422.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371614.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371618.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371813.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5355.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371819.mkv",
                 "127.0.0.1"
               ]
             ],
-            "mean_value": 503.0,
-            "target": "fx",
-            "timestamp": 1468551754.173511,
+            "mean_value": 5608.88888888889,
+            "target": "firefox_47.0",
+            "timestamp": 1470372016.792,
+            "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8Ynh3UDhsY1ptbEU/preview",
+            "median_value": 5361.111111111111,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 513.5080671025758,
+            "test": "test_firefox_open_gmail",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      },
+      "test_chrome_search": {
+        "2016-08-10": {
+          "chrome": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                7566.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859378.mkv",
+                "10.247.29.23"
+              ],
+              [
+                9099.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859486.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7200.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859583.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7233.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859695.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7666.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859836.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7755.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470859905.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7277.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860041.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860111.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7722.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860242.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860316.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7711.1111111111095,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860446.mkv",
+                "10.247.29.23"
+              ],
+              [
+                9422.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860547.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860655.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7899.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860766.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7666.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860857.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7499.999999999996,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470860977.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7666.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861060.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7677.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861187.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861263.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861397.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7822.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861463.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861605.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861668.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7322.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861816.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7600,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470861872.mkv",
+                "10.247.29.23"
+              ],
+              [
+                7733.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470862022.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470862076.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8044.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470862233.mkv",
+                "10.247.28.195"
+              ],
+              [
+                7577.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470862283.mkv",
+                "10.247.29.23"
+              ],
+              [
+                8044.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_search_1470862444.mkv",
+                "10.247.28.195"
+              ]
+            ],
             "video_path": "",
-            "median_value": 503.0,
-            "platform": "x86_64",
-            "sigma_value": 1.4142135623730951,
-            "test": "test_foo",
+            "target": "firefox_47.0",
+            "timestamp": 1470862661.937,
+            "mean_value": 7647.619047619046,
+            "median_value": 7666.666666666668,
+            "platform": "AMD64",
+            "version": "52.0.2743.116",
+            "os": "win32",
+            "test": "test_chrome_search",
+            "profile_path": "",
+            "sigma_value": 132.14385019567513,
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_homepage_pagedown": {
+        "2016-08-10": {
+          "firefox": {
+            "comment": "2016-08-10",
+            "origin_values": [
+              [
+                14244.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470828448.mkv",
+                "10.247.29.23"
+              ],
+              [
+                14255.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470828598.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13566.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470828670.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13600,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470828831.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13577.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470828887.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829061.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13600.000000000004,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829103.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13611.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829292.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13577.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829322.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13588.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829523.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829762.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829754.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13588.88888888889,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829981.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13566.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470829981.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830198.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13577.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830214.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830415.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13611.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830444.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13611.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830634.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13577.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830677.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13544.444444444442,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830854.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470830911.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13611.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831073.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13611.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831144.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13577.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831294.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831374.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13533.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831511.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831600.mkv",
+                "10.247.28.195"
+              ],
+              [
+                13577.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831729.mkv",
+                "10.247.29.23"
+              ],
+              [
+                13566.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_homepage_pagedown_1470831827.mkv",
+                "10.247.28.195"
+              ]
+            ],
+            "mean_value": 13582.142857142857,
+            "target": "firefox_47.0",
+            "timestamp": 1470832058.889,
+            "video_path": "",
+            "median_value": 13583.333333333334,
+            "platform": "AMD64",
+            "version": "47.0",
+            "sigma_value": 20.214739090397345,
+            "test": "test_firefox_homepage_pagedown",
+            "profile_path": "",
+            "os": "win32",
+            "browser": "firefox"
+          }
+        }
+      }
+    }
+  },
+  "mac": {
+    "firefox_45.0": {
+      "test_chrome_open_gmail": {
+        "2016-08-18": {
+          "chrome": {
+            "comment": "2016-08-18",
+            "origin_values": [
+              [
+                8611.11111111111,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372017.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6522.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372212.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7655.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372224.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5177.777777777777,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372420.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7955.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372427.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5555.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372616.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6655.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372631.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5133.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372811.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6688.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470372829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6977.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373006.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6633.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373028.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6933.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373207.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373228.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6877.777777777774,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373405.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7577.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373426.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7555.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373604.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6744.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373628.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6688.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373807.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470373829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7288.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374006.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7544.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374029.mkv",
+                "127.0.0.1"
+              ],
+              [
+                7033.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374207.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7444.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374232.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6666.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374405.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6588.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374436.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6722.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374602.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6622.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374635.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5644.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374800.mkv",
+                "10.247.28.192"
+              ],
+              [
+                7533.3333333333285,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374833.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6455.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_chrome_open_gmail_1470374996.mkv",
+                "10.247.28.192"
+              ]
+            ],
+            "mean_value": 6945.238095238096,
+            "target": "firefox_45.0",
+            "timestamp": 1470375189.732,
+            "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8bDlRMWJJSUZWaXc/preview",
+            "median_value": 6811.1111111111095,
+            "platform": "AMD64",
+            "version": "52.0.2743.82",
+            "sigma_value": 636.1322764305029,
+            "test": "test_chrome_open_gmail",
             "profile_path": "",
             "os": "mac",
-            "browser": "fx"
-          },
-          "ch": {
-            "comment": "first test",
+            "browser": "chrome"
+          }
+        }
+      },
+      "test_firefox_open_gmail": {
+        "2016-08-18": {
+          "firefox": {
+            "comment": "2016-08-18",
             "origin_values": [
               [
-                508,
-                "20160701_ch001.avi",
+                6022.222222222226,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366397.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5811.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366597.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6333.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366796.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6566.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470366996.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5144.444444444445,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470367198.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5066.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369431.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5700,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369628.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6755.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369633.mkv",
                 "127.0.0.1"
               ],
               [
-                505,
-                "20160701_ch002.avi",
+                5033.333333333336,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369829.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470369837.mkv",
                 "127.0.0.1"
               ],
               [
-                508,
-                "20160701_ch005.avi",
+                5966.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370026.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5333.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370035.mkv",
                 "127.0.0.1"
               ],
               [
-                506,
-                "20160701_ch004.avi",
+                5000,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370225.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5477.777777777781,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370235.mkv",
                 "127.0.0.1"
               ],
               [
-                507,
-                "20160701_ch003.avi",
+                6066.666666666668,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370419.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6300,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370432.mkv",
+                "127.0.0.1"
+              ],
+              [
+                4988.888888888887,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370620.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5166.6666666666715,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370631.mkv",
+                "127.0.0.1"
+              ],
+              [
+                6033.333333333332,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370817.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470370829.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5355.555555555555,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371018.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5288.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371026.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5366.666666666664,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371218.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6122.222222222223,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371223.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371417.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5122.222222222219,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371422.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5111.111111111113,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371614.mkv",
+                "10.247.28.192"
+              ],
+              [
+                6188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371618.mkv",
+                "127.0.0.1"
+              ],
+              [
+                5188.8888888888905,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371813.mkv",
+                "10.247.28.192"
+              ],
+              [
+                5355.555555555558,
+                "C:\\Users\\user\\Hasal\\output\\videos\\test_firefox_open_gmail_1470371819.mkv",
                 "127.0.0.1"
               ]
             ],
-            "video_path": "http://video/path",
-            "target": "fx",
-            "timestamp": 1468551800.027922,
-            "mean_value": 506.8,
-            "median_value": 507.0,
-            "platform": "x86_64",
+            "mean_value": 5608.88888888889,
+            "target": "firefox_45.0",
+            "timestamp": 1470372016.792,
+            "video_path": "https://drive.google.com/file/d/0B9g1GJPq5xo8Ynh3UDhsY1ptbEU/preview",
+            "median_value": 5361.111111111111,
+            "platform": "AMD64",
+            "version": "45.0",
+            "sigma_value": 513.5080671025758,
+            "test": "test_firefox_open_gmail",
+            "profile_path": "",
             "os": "mac",
-            "test": "test_foo",
-            "profile_path": "http://profile/path",
-            "sigma_value": 1.1661903789690602,
-            "browser": "ch"
+            "browser": "firefox"
           }
         }
       }
