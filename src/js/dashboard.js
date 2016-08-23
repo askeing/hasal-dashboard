@@ -63,9 +63,9 @@ function createTableToContainer() {
 function generateResult(input_array) {
     cleanContainer();
     createTableToContainer();
-    var keys_name = ["Comment", "Test", "Browser", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
-    var keys_sortable = [true, true, true, true, true, true, false, false];
-    var keys = ["comment", "test", ["browser", "version", "platform"], "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
+    var keys_name =     ["Comment", "Test", "Browser", "Version", "Platform", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
+    var keys_sortable = [true, true, true, true, true, true, true, true, false, false];
+    var keys =          ["comment", "test", "browser", "version", "platform", "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
 
     // Generate thead
     var thead = $('<thead></thead>');
@@ -162,6 +162,32 @@ function addTargetButtons(target_name) {
     }
 }
 
+// Comapre the array of result_dict[os_name][target_name]
+function compareResultArray(resultA, resultB) {
+    // compare comment first
+    if (resultA.comment < resultB.comment) {
+        return -1;
+    } else if (resultA.comment > resultB.comment) {
+        return 1;
+    } else if (resultA.comment == resultB.comment) {
+        // if comment is the same, compare test name
+        if (resultA.test < resultB.test) {
+            return -1;
+        } else if (resultA.test > resultB.test) {
+            return 1;
+        } else if (resultA.test == resultB.test) {
+            // if comment and test name are the same, compare the browser name
+            if (resultA.browser < resultB.browser) {
+                return -1;
+            } else if (resultA.browser > resultB.browser) {
+                return 1;
+            } else if (resultA.browser == resultB.browser) {
+                return 0;
+            }
+        }
+    }
+    return 0;
+}
 
 function generateOsAndTarget(input_json) {
     data = input_json;
@@ -201,6 +227,8 @@ function generateOsAndTarget(input_json) {
                     }
                 }
             }
+            // Comapre the array of result_dict[os_name][target_name]
+            result_dict[os_name][target_name].sort(compareResultArray);
         }
     }
 
