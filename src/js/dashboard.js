@@ -63,9 +63,9 @@ function createTableToContainer() {
 function generateResult(input_array) {
     cleanContainer();
     createTableToContainer();
-    var keys_name =     ["Comment", "Test", "Browser", "Version", "Platform", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
-    var keys_sortable = [true, true, true, true, true, true, true, true, false, false];
-    var keys =          ["comment", "test", "browser", "version", "platform", "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
+    var keys_name =     ["Comment", "WebApp", "Test", "Browser", "Version", "Platform", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
+    var keys_sortable = [true, true, true, true, true, true, true, true, true, false, false];
+    var keys =          ["comment", "webappname", "test", "browser", "version", "platform", "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
 
     // Generate thead
     var thead = $('<thead></thead>');
@@ -170,19 +170,26 @@ function compareResultArray(resultA, resultB) {
     } else if (resultA.comment > resultB.comment) {
         return 1;
     } else if (resultA.comment == resultB.comment) {
-        // if comment is the same, compare test name
-        if (resultA.test < resultB.test) {
+        // if comment is the same, compare webapp name
+        if (resultA.webappname < resultB.webappname) {
             return -1;
-        } else if (resultA.test > resultB.test) {
+        } else if (resultA.webappname > resultB.webappname) {
             return 1;
-        } else if (resultA.test == resultB.test) {
-            // if comment and test name are the same, compare the browser name
-            if (resultA.browser < resultB.browser) {
+        } else if (resultA.webappname == resultB.webappname) {
+            // if comment and webapp name are the same, compare the test name
+            if (resultA.test < resultB.test) {
                 return -1;
-            } else if (resultA.browser > resultB.browser) {
+            } else if (resultA.test > resultB.test) {
                 return 1;
-            } else if (resultA.browser == resultB.browser) {
-                return 0;
+            } else if (resultA.test == resultB.test) {
+                // if comment and test name are the same, compare the browser name
+                if (resultA.browser < resultB.browser) {
+                    return -1;
+                } else if (resultA.browser > resultB.browser) {
+                    return 1;
+                } else if (resultA.browser == resultB.browser) {
+                    return 0;
+                }
             }
         }
     }
