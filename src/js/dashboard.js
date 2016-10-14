@@ -63,9 +63,9 @@ function createTableToContainer() {
 function generateResult(input_array) {
     cleanContainer();
     createTableToContainer();
-    var keys_name =     ["Comment", "WebApp", "Test", "Browser", "Version", "Platform", "Median(ms)", "Sigma", "Mean(ms)", "Video", "Profile"];
-    var keys_sortable = [true, true, true, true, true, true, true, true, true, false, false];
-    var keys =          ["comment", "webappname", "test", "browser", "version", "platform", "median_value", "sigma_value", "mean_value", "video_path", "profile_path"];
+    var keys_name =     ["Comment", "WebApp", "Test", "Browser", "Version", "Platform", "Median(ms)", "Sigma", "Mean(ms)", "SI", "PSI", "Video", "Profile"];
+    var keys_sortable = [true, true, true, true, true, true, true, true, true, true, true, false, false];
+    var keys =          ["comment", "webappname", "test", "browser", "version", "platform", "median_value", "sigma_value", "mean_value", "si", "psi", "video_path", "profile_path"];
 
     // Generate thead
     var thead = $('<thead></thead>');
@@ -162,7 +162,7 @@ function addTargetButtons(target_name) {
     }
 }
 
-// Comapre the array of result_dict[os_name][target_name]
+// Compare the array of result_dict[os_name][target_name]
 function compareResultArray(resultA, resultB) {
     // compare comment first
     if (resultA.comment < resultB.comment) {
@@ -215,17 +215,18 @@ function generateOsAndTarget(input_json) {
             result_dict[os_name][target_name] = new Array();
 
             var target = os[target_name];
-            for (var test_name in target) {
-                var test = target[test_name];
-                for (var comment_name in test) {
-                    var comment = test[comment_name]
-                    for (var bowser_name in comment) {
-                        var browser_ret = comment[bowser_name];
+            for (var comment_name in target) {
+                var comment = target[comment_name];
+                for (var test_name in comment) {
+                    var test = comment[test_name]
+                    for (var bowser_name in test) {
+                        var browser_ret = test[bowser_name];
                         browser_ret.test = browser_ret.test.replace(/test_firefox_/g, '').replace(/test_chrome_/g, '');
                         browser_ret.median_value = Number(browser_ret.median_value).toFixed(2);
                         browser_ret.sigma_value = Number(browser_ret.sigma_value).toFixed(2);
                         browser_ret.mean_value = Number(browser_ret.mean_value).toFixed(2);
-                        browser_ret.mean_value = Number(browser_ret.mean_value).toFixed(2);
+                        browser_ret.si = Number(browser_ret.si).toFixed(2);
+                        browser_ret.psi = Number(browser_ret.psi).toFixed(2);
                         if (browser_ret.video_path) {
                             // <iframe class="embed-responsive-item" src="VIDEO_PATH" width="640" height="480"></iframe>
                             browser_ret.video_path = '<iframe class="embed-responsive-item" src="' + browser_ret.video_path + '" width="320" height="240"></iframe>';
